@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 100" fill="none">
+  <!-- Brand Emblem -->
+  <g transform="translate(10, 8)">
+    <!-- Outer Gear Ring Glow -->
+    <circle cx="42" cy="42" r="38" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="2"/>
+    <!-- Gear Teeth -->
+    <path d="M42 6 L45 12 L51 13 L53 19 L59 22 L58 28 L63 33 L60 39 L63 45 L58 50 L59 56 L53 59 L51 65 L45 66 L42 72 L39 66 L33 65 L31 59 L25 56 L26 50 L21 45 L24 39 L21 33 L26 28 L25 22 L31 19 L33 13 L39 12 Z" fill="#E2E8F0" opacity="0.6"/>
+    <!-- Inner Accent Ring -->
+    <circle cx="42" cy="42" r="32" fill="none" stroke="#FF6B00" stroke-width="2.5" stroke-dasharray="4 2"/>
+    <!-- Central Shield / Badge -->
+    <circle cx="42" cy="42" r="26" fill="#0A192F"/>
+    <!-- MJ Monogram -->
+    <text x="42" y="50" font-family="'Outfit', 'Inter', system-ui, sans-serif" font-weight="900" font-size="24" fill="#FFFFFF" text-anchor="middle" letter-spacing="-1">MJ</text>
+    <!-- Safety Star/Crown -->
+    <polygon points="42,22 44,26 48,27 45,30 46,34 42,32 38,34 39,30 36,27 40,26" fill="#FF8A00"/>
+  </g>
+  
+  <!-- Company Text -->
+  <g transform="translate(105, 12)">
+    <!-- Main Title -->
+    <text x="0" y="32" font-family="'Outfit', 'Inter', system-ui, sans-serif" font-weight="900" font-size="30" fill="#0A192F" letter-spacing="0.5">
+      MJ <tspan fill="#FF6B00">“ATOZ”</tspan> SERVICES
+    </text>
+    <!-- Subtitle / Tagline -->
+    <text x="1" y="52" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="11.5" fill="#475569" letter-spacing="1.8">
+      ALL TYPE OF INDUSTRIAL WORK &amp; LABOUR SERVICES
+    </text>
+    <!-- Trust Badge Pill -->
+    <g transform="translate(0, 60)">
+      <rect x="0" y="0" width="270" height="18" rx="4" fill="#EFF6FF"/>
+      <text x="8" y="12.5" font-family="'Inter', system-ui, sans-serif" font-weight="600" font-size="9" fill="#1E40AF" letter-spacing="0.6">
+        GOVT. REGISTERED • ESIC • EPFO • GST • MSME
+      </text>
+    </g>
+  </g>
+</svg>
