@@ -1852,6 +1852,32 @@ h1, h2, h3, h4, h5, h6 {
    Responsive Breakpoints & Mobile Overhauls
    ========================================================================== */
 
+@media (max-width: 1180px) {
+  .nav-menu {
+    gap: 0.2rem;
+  }
+  .nav-link {
+    font-size: 0.88rem;
+    padding: 0.45rem 0.55rem;
+  }
+  .nav-cta {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-menu, .nav-cta {
+    display: none;
+  }
+  .mobile-nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-grid {
     grid-template-columns: 1fr;
